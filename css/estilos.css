@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+
+}
+.header{
+    height: 100vh;
+    background-image:url("../assets/imagenes/FONDO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+.navbar-brand img{
+    width: auto;
+    height: 75px;
+
+}
+.seccion-header {
+    height: calc(100vh - 75px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.verde{
+  background-color: rgba(53, 221, 20, 0.75);
+  width: 40%;
+}
+.main{
+    background-color: black;
+    color:aliceblue;
+    height: 100vh;
+    
+}
+.main hr{
+    padding-bottom: 5vh;
+}
+.marginHr{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+.tiposimagenes{
+    text-align:center;
+    width: 90%;
+    margin:0 auto;
+   
+    
+}
+.nosotroh1{
+    text-align: center;
+}
+.img{
+    display:grid;
+    place-content: center;    
+}
+.img h3{
+    text-align: center;
+    margin: 1.5em auto;
+}
+.img img{
+    height: 310px;
+    width: auto;
+}
+.imagenes{
+    margin-top:15vh;
+    width:30%;
+    display: inline-block;
+    background-color:rgb(235, 15, 15);
+    padding:10px;
+   
+}
+.carousel{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+
+
+}
+.footer{
+    background-color: red;
+    color:rgb(76, 231, 14);
+    height: auto;
+    text-align: left;
+}
+
+.footer p{
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 8px;
+}
+
+.linkiwf{
+    text-decoration: none;
+    padding-left: 20px;
+    place-content: center;
+}
+.icono{
+    color:rgb(33, 33, 33);
+    font-size: 4rem;
+}
+.form-container{
+    padding: 2em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: crimson;
+    flex-direction: column;
+
+}
+.mb{
+    background-color: transparent;   
+    margin: 1em;
+    width: 60%;
+}
+.form-control{
+    background-color: transparent;
+
+}
+.mapita{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 470px) {
+
+    .imagenes{
+        display: inline 
+    }
+  
+}
