@@ -79,6 +79,10 @@
     padding:10px;
    
 }
+.hrcarrusel{
+    background-color: red;
+    padding: 30px;
+}
 .carousel{
     width: auto;
     display: flex;
